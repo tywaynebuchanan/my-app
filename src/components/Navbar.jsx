@@ -18,12 +18,12 @@ const Navbar = () => {
             </div>
             
             <ul className = "md:flex md:items-center">
-                <li className = "md:ml-8 flex cursor-pointer"><CubeIcon className='h-6 fill-gray-200 '/>Models</li>
-                <li className = "md:ml-8 flex cursor-pointer"><DatabaseIcon className='h-6 fill-gray-200 '/>DataSet</li>
-                <li className = "md:ml-8 flex cursor-pointer">Spaces</li>
-                <li className = "md:ml-8 flex cursor-pointer">Docs</li>
-                <li className = "md:ml-8 flex cursor-pointer">Solutions</li>
-                <li className = "md:ml-8 flex cursor-pointer">Pricing</li>
+                <li className = "md:ml-8 flex cursor-pointer text-sm"><CubeIcon className='h-4 fill-gray-200 '/>Models</li>
+                <li className = "md:ml-8 flex cursor-pointer text-sm"><DatabaseIcon className='h-4 fill-gray-200 '/>DataSet</li>
+                <li className = "md:ml-8 flex cursor-pointer text-sm"><CubeIcon className='h-4 fill-gray-200 '/>Spaces</li>
+                <li className = "md:ml-8 flex cursor-pointer text-sm"><CubeIcon className='h-4 fill-gray-200 '/>Docs</li>
+                <li className = "md:ml-8 flex cursor-pointer text-sm"><CubeIcon className='h-4 fill-gray-200 '/>Solutions</li>
+                <li className = "md:ml-8 flex cursor-pointer text-sm"><CubeIcon className='h-4 fill-gray-200 '/>Pricing</li>
                 
             </ul>
             <div className = "md:flex md:items-center">

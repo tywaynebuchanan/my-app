@@ -6,8 +6,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <About />
+      <div className = "bg-white w-full h-screen"></div>
     </>
   );
 }

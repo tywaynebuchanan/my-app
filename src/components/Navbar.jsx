@@ -17,18 +17,18 @@ const Navbar = () => {
                 <p>Leotis Page</p>
             </div>
             
-            <ul className = "md:flex md:items-center">
-                <li className = "md:ml-8 flex cursor-pointer text-sm"><CubeIcon className='h-4 fill-gray-200 '/>Models</li>
-                <li className = "md:ml-8 flex cursor-pointer text-sm"><DatabaseIcon className='h-4 fill-gray-200 '/>DataSet</li>
-                <li className = "md:ml-8 flex cursor-pointer text-sm"><CubeIcon className='h-4 fill-gray-200 '/>Spaces</li>
-                <li className = "md:ml-8 flex cursor-pointer text-sm"><CubeIcon className='h-4 fill-gray-200 '/>Docs</li>
-                <li className = "md:ml-8 flex cursor-pointer text-sm"><CubeIcon className='h-4 fill-gray-200 '/>Solutions</li>
+            <ul className = "md:flex md:items-center md:pb-0 pb-12">
+                <li className = "md:ml-8 flex cursor-pointer text-sm md:my-0 my-7"><CubeIcon className='h-4 fill-gray-200 '/>Models</li>
+                <li className = "md:ml-8 flex cursor-pointer text-sm md:my-0 my-7"><DatabaseIcon className='h-4 fill-gray-200 '/>DataSet</li>
+                <li className = "md:ml-8 flex cursor-pointer text-sm md:my-0 my-7"><CubeIcon className='h-4 fill-gray-200 '/>Spaces</li>
+                <li className = "md:ml-8 flex cursor-pointer text-sm md:my-0 my-7"><CubeIcon className='h-4 fill-gray-200 '/>Docs</li>
+                <li className = "md:ml-8 flex cursor-pointer text-sm md:my-0 my-7"><CubeIcon className='h-4 fill-gray-200 '/>Solutions</li>
                 <li className = "md:ml-8 flex cursor-pointer text-sm"><CubeIcon className='h-4 fill-gray-200 '/>Pricing</li>
                 
             </ul>
             <div className = "md:flex md:items-center">
                 <ul>
-                <li className = "md:ml-8 cursor-pointer">Log In</li>
+                <li className = "md:ml-8 cursor-pointer md:my-0 my-7">Log In</li>
                 </ul>
                 <Button></Button>
             </div>
